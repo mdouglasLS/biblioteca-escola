@@ -1,0 +1,26 @@
+<h1>Resenhas</h1>
+
+<p>Resenhas literárias feitas por estudantes.</p>
+
+<hr>
+
+<a href="{{URL}}/admin/resenhas/new">
+    <button type="button" class="btn btn-success">Criar uma resenha</button>
+</a>
+<hr>
+{{status}}
+<table class="table table-light table-striped">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th style="width: 200px">Nome</th>
+        <th>Mensagem</th>
+        <th>Data</th>
+        <th style="width: 200px">Ações</th>
+    </tr>
+    </thead>
+    <tbody>
+        {{items}}
+    </tbody>
+</table>
+{{pagination}}

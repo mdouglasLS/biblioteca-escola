@@ -1,0 +1,12 @@
+{
+    "name":"mdouglas/biblioteca-escola",
+    "autoload": {
+      "psr-4": {
+        "App\\": "app/"
+      }
+    },
+    "require": {
+        "firebase/php-jwt": "^6.1",
+        "paragonie/sodium_compat": "^1.17"
+    }
+}

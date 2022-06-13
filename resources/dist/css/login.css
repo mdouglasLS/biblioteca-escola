@@ -1,0 +1,60 @@
+
+.or-divisor{
+    position: relative;
+    border-top: 1px solid #d3d9de;
+    margin: 2rem 0 1.5rem 0;
+}
+
+.or-divisor::after{
+    position: absolute;
+    content: "ou";
+    color: #627384;
+    background-color: #fff;
+    top: -12px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 50px;
+    text-align: center;
+}
+
+.fs-signup{
+    font-size: 0.8rem;
+}
+
+.tex-terms{
+    font-size: 0.8rem;
+}
+
+@media (max-width: 767.9px) {
+    html, body{
+        background-color: #fff;
+        display: block;
+    }
+    .box-login{
+        font-size: 1rem;
+    }
+  }
+
+
+@media (min-width: 768px) {
+    body{
+        background-color: rgb(248,249,250);
+    }
+
+    .main-login{
+        display: flex;
+        align-items: center;
+    }
+    
+    .box-login{
+        max-width: 650px;
+        background-color: white;
+        padding: 50px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.171);
+    }
+}
+
+
+  

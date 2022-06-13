@@ -1,0 +1,25 @@
+<h1>Usuários</h1>
+
+<p>Usuários cadastrados na Biblioteca Níssio Castiel.</p>
+
+<hr>
+
+<a href="{{URL}}/admin/usuarios/new">
+    <button type="button" class="btn btn-success">Cadastrar um usuário</button>
+</a>
+<hr>
+{{status}}
+<table class="table table-light table-striped">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th style="width: 200px">Nome</th>
+        <th>E-mail</th>
+        <th style="width: 200px">Ações</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{items}}
+    </tbody>
+</table>
+{{pagination}}

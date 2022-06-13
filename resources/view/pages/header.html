@@ -1,0 +1,128 @@
+<header>
+    <nav class="py-lg-3 navbar navbar-expand-lg fixed-top navbar-dark bg-default" aria-label="Main navigation">
+        <div class="container">
+
+            <!-- Logo -->
+            <div class="col flex-logo d-flex justify-content-start">
+                <a href="{{URL}}" class="navbar-brand me-5 fs-4">
+                    Níssio Castiel
+                </a>
+            </div>
+
+            <!-- Hamburguer menu -->
+            <div class="col d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none d-flex justify-content-end">
+                <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <!-- Search -->
+            <div class="col-6 d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
+                <form action="">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Que livro você procura?"
+                               aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-light" type="button" id="button-addon2"><i
+                                class="fas fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Login Sigin up -->
+            <div class="col d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block ms-5">
+                <a href="{{URL}}/login" class="text-light text-decoration-none d-flex justify-content-end me-5">
+                    <i class="fas fa-sign-in-alt fs-5"></i>
+                    <span class="ms-2">Entrar</span>
+                </a>
+            </div>
+
+
+
+            <!-- Menu Offcanvas -->
+            <div class="row">
+                <div class="col-12 d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none">
+                    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                        <div class="mt-2">
+                            <h2 class="color-muted fs-4">Menu</h2>
+                        </div>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="{{URL}}/login" class="nav-link">
+                                    <i class="fas fa-sign-in-alt"></i>
+                                    <span class="ms-2">Entrar | Cadastrar</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{URL}}" class="nav-link">
+                                    <i class="fas fa-house-user"></i>
+                                    <span class="ms-1">Home</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{URL}}/livros" class="nav-link">
+                                    <i class="fas fa-book ms-1"></i>
+                                    <span class="ms-2">Livros</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{URL}}/emprestimos" class="nav-link">
+                                    <i class="fas fa-clipboard ms-1"></i>
+                                    <span class="ms-2">Empréstimos</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{URL}}/resenhas" class="nav-link">
+                                    <i class="fas fa-dice"></i>
+                                    <span class="ms-2">Resenhas</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{URL}}/sobre" class="nav-link">
+                                    <i class="fas fa-book-open"></i>
+                                    <span class="ms-2">Sobre</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{URL}}/me" class="nav-link">
+                                    <i class="fas fa-address-card"></i>
+                                    <span class="ms-2">Minha conta</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Nav Scroll menu desktop-->
+<div class="mt-lg-4 nav-scroller bg-body shadow-sm d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
+    <nav class="container nav nav-underline mt-1 d-flex justify-content-between" aria-label="Secondary navigation">
+        <a class="nav-link active" aria-current="page" href="{{URL}}"><i class="fas fa-house-user"></i> Home</a>
+        <a class="nav-link" href="{{URL}}/livros"><i class="fas fa-book"></i> Livros</a>
+        <a class="nav-link" href="{{URL}}/emprestimos"><i class="fas fa-clipboard"></i> Empréstimos</a>
+        <a class="nav-link" href="{{URL}}/resenhas"><i class="fas fa-dice"></i> Resenhas</a>
+        <a class="nav-link" href="{{URL}}/sobre"><i class="fas fa-book-open"></i> Sobre</a>
+        <a class="nav-link" href="{{URL}}/me"><i class="far fa-address-card ms-1"></i> Minha conta</a>
+    </nav>
+</div>
+
+<!-- Nav Scroll Search mobile -->
+<div class="p-scroll-search nav-scroller bg-default shadow-sm d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none">
+    <nav class="container nav nav-underline mt-1" aria-label="Secondary navigation">
+        <div class="row mx-auto w-100">
+            <div class="col-12">
+                <form action="">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Que livro você procura?"
+                               aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-light" type="button" id="button-addon2"><i
+                                class="fas fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+</div>
